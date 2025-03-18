@@ -51,10 +51,10 @@ Logged into the "DC-ONE" VM and disabled the Windows Firewall (for testing conne
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9oV3sXu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I set client-one’s DNS settings to DC-ONE’s Private IP address. This ensures that client-one can locate and communicate with the Domain Controller (DC-ONE) for authentication and Active Directory services.
 </p>
 <br />
 
