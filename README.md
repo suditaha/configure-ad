@@ -83,6 +83,62 @@ Logged into DC-ONE and installed Active Directory Domain Services.
 <br />
 
 <p>
+<img src="https://i.imgur.com/U3rkfbJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Promoted/Configured "DC-ONE" as a Domain Controller: Setup a new forest as "mydomain.com" (this can be anything by the way, does not necessarily have to be "mydomain.com").
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/yIovR72.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Installed the forest. ✅
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/awTVnlI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Restarted and then logged back into DC-1 as user: mydomain.com\suditaha.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/rQG2uvq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Active Directory Users and Computers (ADUC), I created an Organizational Unit (OU) called “_EMPLOYEES”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nQ5JfIz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I also Created a new Organizational Unit (OU) named “_ADMINS”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/tUxy5ou.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Created a new employee named “Jane Doe” with the username of “jane_admin” & password of Cyberlab123!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
