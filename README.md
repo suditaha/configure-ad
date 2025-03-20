@@ -147,7 +147,7 @@ Logged out / closed the connection to DC-ONE and logged back in as “mydomain.c
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KBWUKPb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Logged into client-one as the original local admin (suditaha) and joined it to the domain (computer will restart)
@@ -155,18 +155,18 @@ Logged into client-one as the original local admin (suditaha) and joined it to t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4yd440h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logged into the Domain Controller and verified that client-one shows up in Active Directory Users and Computers (ADUC). Created a new Organizational Unit (OU) named “_CLIENTS” and dragged client-one into there
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jVuDBBw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Logged into client-one as mydomain.com\jane_admin. Opened system properties. Clicked “Remote Desktop”. Allowed “Domain Users” access to Remote Desktop.
 </p>
 <br />
 
