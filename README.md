@@ -199,7 +199,65 @@ Once all the accounts were created, I opened ADUC and observed the accounts in t
 <img src="https://i.imgur.com/0lAZF2K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I then picked a random account from the accounts that were created (bef.lexi) and attempted to log into client-one with it, which was successful.
+I then picked a random account from the accounts that were created (bef.lexi) and attempted to log into client-one with it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/RREbVCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login Successful ✅
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/Xy1uucu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I got logged into DC-ONE and picked a random user account out of the accounts that were created previously. I picked user "com.tom"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Ckxnr0l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I then opened the Group Policy Management Console (GPMC) & configured the Account Lockout Policy Settings.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/szP2A7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I ended up configuring the Group Policy to lockout the account after 5 attempts:
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/JvkaSM5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
