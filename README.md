@@ -232,7 +232,15 @@ I then opened the Group Policy Management Console (GPMC) & configured the Accoun
 <img src="https://i.imgur.com/szP2A7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I ended up configuring the Group Policy to lockout the account after 5 attempts:
+I ended up configuring the Group Policy to lockout the account after 5 attempts.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/y4Qawd4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I could either wait for the new Group Policy configuration to propagate automatically after a 90 minute wait, or I can force an update immediately. I decided to log into the jane_admin account to force the Group Policy to update immediately.
 </p>
 <br />
 
