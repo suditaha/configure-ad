@@ -248,10 +248,50 @@ I could either wait for the new Group Policy configuration to propagate automati
 <img src="https://i.imgur.com/JvkaSM5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Attempted to log in to client-one 6 times with a bad/incorrect password.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/0EWPe5Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Ended up getting locked out of the "com.tom" account.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SBvF7nV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Opened Group Policy Management back up again in DC-ONE. Searched for the "com.tom" account
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
