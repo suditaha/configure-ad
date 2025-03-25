@@ -329,6 +329,6 @@ Attempted to login to it. Login Successful ✅
 <img src="https://i.imgur.com/nZbEHAo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Observed the logs for the failed "com.tom" login attempts from earlier in the Domain Controller (DC-ONE). I used the Event Viewer to view these logs.
+Observed the logs for the failed "com.tom" login attempts from earlier in the client machine (client-one). I used the Event Viewer to view these logs.
 </p>
 <br />
