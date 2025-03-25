@@ -294,25 +294,41 @@ Reset the password of the user com.tom in Active Directory Users and Computers (
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wczGZQO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I disabled the account "com.tom" in Active Directory.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MzFLZLG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I attempted to login to the account & observed the error message.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ZQJpQaF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Re-enabled the account.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lofKlU8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Attempted to login to it. Login Successful ✅
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nZbEHAo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Observed the logs for the failed "com.tom" login attempts from earlier in the Domain Controller (DC-ONE). I used the Event Viewer to view these logs.
 </p>
 <br />
