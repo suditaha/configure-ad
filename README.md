@@ -26,7 +26,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p><strong><u>Setup Domain Controller in Azure</u></strong></p>
+<br />
+
+
+## 1 - Setting up Domain Controller (DC-ONE) & Client Machine (client-one) in Azure
 
 <p>
 <img src="https://i.imgur.com/5XMXSUT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -76,6 +79,8 @@ From client-one, I opened PowerShell and ran ipconfig /all. The output for the D
 </p>
 <br />
 
+## 2 - Installing Active Directory
+
 <p>
 <img src="https://i.imgur.com/2ANleZh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -107,6 +112,8 @@ Installed the forest. ✅
 Restarted and then logged back into DC-ONE as user: mydomain.com\suditaha.
 </p>
 <br />
+
+## 3 - Creating a Domain Admin user within the Domain
 
 <p>
 <img src="https://i.imgur.com/rQG2uvq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -148,6 +155,8 @@ Logged out / closed the connection to DC-ONE and logged back in as “mydomain.c
 </p>
 <br />
 
+## 4 - Joining client-one to my domain (mydomain.com)
+
 <p>
 <img src="https://i.imgur.com/KBWUKPb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -164,6 +173,8 @@ Logged into the Domain Controller and verified that client-one shows up in Activ
 </p>
 <br />
 
+## 5 - Setup Remote Desktop for non-administrative users on client-one.
+
 <p>
 <img src="https://i.imgur.com/jVuDBBw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -171,6 +182,8 @@ Logged into the Domain Controller and verified that client-one shows up in Activ
 Logged into client-one as mydomain.com\jane_admin. Opened system properties. Clicked “Remote Desktop”. Allowed “Domain Users” access to Remote Desktop.
 </p>
 <br />
+
+## 6 - Creating a bunch of additional users and attempting to log into client-one with one of the users.
 
 <p>
 <img src="https://i.imgur.com/gamMtws.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -213,6 +226,7 @@ Login Successful ✅
 </p>
 <br />
 
+## 7 - Dealing with Account Lockouts.
 
 <p>
 <img src="https://i.imgur.com/Xy1uucu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -254,7 +268,6 @@ Attempted to log in to client-one 6 times with a bad/incorrect password.
 </p>
 <br />
 
-
 <p>
 <img src="https://i.imgur.com/0EWPe5Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -295,6 +308,8 @@ Reset the password of the user com.tom in Active Directory Users and Computers (
 </p>
 <br />
 
+## 8 - Enabling and Disabling Accounts.
+
 <p>
 <img src="https://i.imgur.com/wczGZQO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -326,6 +341,8 @@ Re-enabled the account.
 Attempted to login to it. Login Successful ✅
 </p>
 <br />
+
+## 9 - Observing Logs.
 
 <p>
 <img src="https://i.imgur.com/nZbEHAo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
