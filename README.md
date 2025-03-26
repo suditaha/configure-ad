@@ -19,10 +19,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Deployed two VMs in Azure — “DC-ONE” (Windows Server 2022) as the Domain Controller, and “client-one” (Windows 10) as the client machine. Set DC-ONE’s IP to static and configured DNS on client-one to point to it.
+- Installed Active Directory Domain Services on DC-ONE and promoted it to a Domain Controller for a new forest named `mydomain.com`.
+- Created Organizational Units (`_EMPLOYEES`, `_ADMINS`, `_CLIENTS`) and added a Domain Admin user (`jane_admin`). Joined client-one to the domain and moved it into the appropriate OU.
+- Enabled Remote Desktop access for Domain Users on client-one and verified login functionality using a newly created domain user.
+- Configured account lockout policies via Group Policy, tested lockouts, observed logs via Event Viewer, and demonstrated enabling/disabling and unlocking user accounts in ADUC.
 
 <h2>Deployment and Configuration Steps</h2>
 
